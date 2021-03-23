@@ -1,4 +1,7 @@
 language: python
+arch: 
+  - amd64
+  - arm64
 install:
 - pip3 install coverage
 - pip3 install coveralls
